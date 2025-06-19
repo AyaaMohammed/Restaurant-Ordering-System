@@ -1,13 +1,13 @@
-# 🍽️ Restaurant Ordering System
+#  Restaurant Ordering System
 
 A full-stack web application for restaurant ordering, developed using **ASP.NET Core Web API (Onion Architecture)** and **Angular**. Users can browse restaurants, filter by city or name, view menus, select items, place orders, and receive a confirmation email. The system supports full authentication (JWT, Refresh Tokens) and "Forget Password" via email.
 
 ---
 
-## 🧱 Technologies Used
+##  Technologies Used
 
-### 🔹 Backend
-- ASP.NET Core Web API (.NET 7)
+###  Backend
+- ASP.NET Core Web API 
 - Onion Architecture (Domain, Application, Infrastructure, API)
 - Entity Framework Core (Code First)
 - AutoMapper
@@ -17,8 +17,8 @@ A full-stack web application for restaurant ordering, developed using **ASP.NET 
 - FluentValidation (optional)
 - Repository & Unit of Work Pattern
 
-### 🔹 Frontend
-- Angular 17+
+###  Frontend
+- Angular 19
 - Bootstrap 5
 - Angular Forms
 - HTTPClient
@@ -26,9 +26,9 @@ A full-stack web application for restaurant ordering, developed using **ASP.NET 
 
 ---
 
-## 🧩 Features
+##  Features
 
-### ✅ Backend
+###  Backend
 - CRUD for Restaurants and Menus
 - Search restaurants by name and city
 - Filter restaurants by category
@@ -41,7 +41,7 @@ A full-stack web application for restaurant ordering, developed using **ASP.NET 
 - Forget password via secure email link
 - Onion Architecture for clean, scalable code
 
-### ✅ Frontend
+###  Frontend
 - List all restaurants with search & filters
 - Filter by city and category
 - Pagination support
