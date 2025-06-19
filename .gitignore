@@ -1,0 +1,64 @@
+# ===============================
+# .NET (ASP.NET Core / EF Core)
+# ===============================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vs/
+.vscode/
+.vsconfig
+
+# EF Migrations snapshot files
+Migrations/*Snapshot.cs
+
+# User secrets (in dev only)
+secrets.json
+
+# SQL Server files
+*.mdf
+*.ldf
+
+
+# ===============================
+# Angular
+# ===============================
+/Angular/node_modules/
+/Angular/dist/
+/Angular/.angular/
+/Angular/.env
+
+# Angular IDE files
+.AngularCache/
+*.tsbuildinfo
+
+# Environment files (optional if private)
+.env
+.env.local
+.env.production
+
+# ===============================
+# General
+# ===============================
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.zip
+
+# npm debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Git Submodule (if needed)
+# ===============================
+*.submodule
+
