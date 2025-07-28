@@ -18,6 +18,7 @@ A full-stack web application for restaurant ordering, developed using **ASP.NET 
 - Repository & Unit of Work Pattern
 
 ###  Frontend
+<<<<<<< HEAD
 - Angular 19
 - Bootstrap 5
 - Angular Forms
@@ -52,5 +53,9 @@ A full-stack web application for restaurant ordering, developed using **ASP.NET 
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Project Structure (Onion Architecture)
+=======
+##  Project Structure (Onion Architecture)
+>>>>>>> 4f94127174198a19f8c978a3f869dea51ac681e2
 
