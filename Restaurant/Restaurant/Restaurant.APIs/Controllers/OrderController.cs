@@ -44,8 +44,7 @@ namespace Restaurant.APIs.Controllers
             var customer = GetOrCreateCustomer(request.CustomerData);
             if (customer == null)
                 return BadRequest("Failed to create or get customer.");
-
-            var restaurant = _unitOfWork.Restaurants.GetById(request.RestaurantId);
+             var restaurant = _unitOfWork.Restaurants.GetById(request.RestaurantId);
             if (restaurant == null)
                 return NotFound("Restaurant not found.");
 
@@ -85,6 +84,8 @@ namespace Restaurant.APIs.Controllers
             if (customer == null)
             {
                 customer = _map.Map<Restaurant.Core.Entities.Customer>(customerData);
+                if (string.IsNullOrWhiteSpace(customer.Password))
+                    customer.Password = Guid.NewGuid().ToString();
                 _unitOfWork.Customers.Add(customer);
                 _unitOfWork.Save();
             }

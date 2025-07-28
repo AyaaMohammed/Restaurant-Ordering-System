@@ -52,13 +52,13 @@ namespace Restaurant.APIs
                 {
                     string key = "welcome to my secret key hhh llhplkod";
                     var sercertKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key));
-                    op.TokenValidationParameters=new TokenValidationParameters
+                    op.TokenValidationParameters = new TokenValidationParameters
                     {
                         IssuerSigningKey = sercertKey,
                         ValidateIssuer = false,
                         ValidateAudience = false,
                         ValidateLifetime = true,
-                        ClockSkew = TimeSpan.Zero
+                        ClockSkew = TimeSpan.FromMinutes(3)
                     };
                 }
                 );
@@ -68,6 +68,7 @@ namespace Restaurant.APIs
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
+                app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
