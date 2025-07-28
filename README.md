@@ -144,7 +144,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙋‍♀️ Author
 
-**Aya Mohamed Nafed**  
+**Aya Nafed**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/aya-mohamed-nafed)
 
 ---
